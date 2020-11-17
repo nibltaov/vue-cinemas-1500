@@ -1,0 +1,25 @@
+.icon-film::before {
+    content: '\f008';
+    font-weight: 300;
+    color: var(--text);
+}
+.icon-play {
+    display: flex;
+}
+.icon-play::before {
+    content: '\f04b';
+    font-weight: 900;
+    position: absolute;
+    color: var(--text);
+}
+.icon-play::after {
+    content: '\10f04b';
+    font-weight: 900;
+    opacity: 0.5;
+    color: var(--text);
+}
+.icon-menu::before {
+    content: '\f0c9';
+    font-weight: 300;
+    color: var(--text);
+}
